@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "As a httpbin user, i need to validate send data with HTTP post function ",
+        "id": "testing-api-create-function;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3175497000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "setup test data into json \u0026 use post method",
+            "match": {
+              "location": "Stepdef.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 965928400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate test cases",
+            "match": {
+              "location": "Stepdef.postTestcasesValidation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing API create function",
+    "description": "",
+    "id": "testing-api-create-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/API%20Post%20Test.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
